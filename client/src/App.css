@@ -14,14 +14,15 @@
 body {
   font-family: 'Segoe UI', system-ui, sans-serif;
   line-height: 1.6;
+  margin: 0 15%;
 }
 
 .chat-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 10px auto;
   background: #f8f9fa;
 }
 
@@ -153,6 +154,12 @@ button:disabled {
 }
 
 @media (max-width: 768px) {
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  
+
   .chat-header {
     padding: 1rem;
   }
